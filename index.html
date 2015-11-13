@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>FreeBSD</title>
+	<meta name="description" content="Recreating FreeBSD webpage with html and css" />
+	<link rel="stylesheet" href="style.css" />	
+</head>
+
+<body>
+	<div class="wrapper"><!-- wrapper container starts -->
+
+	<!-- header block here -->	
+		<header class="header">
+			<!-- main logo -->
+			<img src="images/logo.png" alt="FreeBSD Logo" width="430" height="70">
+
+			<!-- text size / donate / contact -->
+			<ul id="contactNav">
+				<li>Text Size:</li>
+				<li><a href="#">Normal</a></li>
+				<li>/</li>
+				<li><a href="#">Large</a></li>
+				<li><a href="#">Donate</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+			<!-- search bar -->
+			<form id="searchBar">
+				<input type="search" name="search" placeholder="Search" />
+				<input type="submit" name="Search" value="Search" />
+			</form>
+		</header>
+	<!-- end header block -->
+
+
+	<!-- nav block here -->
+		<div id="mainNavBar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Get FreeBSD</a></li>
+				<li><a href="#">Documentation</a></li>
+				<li><a href="#">Community</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Foundation</a></li>
+			</ul>
+		</div>
+	<!-- end nav block -->
+
+
+	<!-- side info block here -->
+	<div id="asideMenu">
+		<aside>
+			<ul>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Developer's Handbook</a></li>
+				<li><a href="#">Porter's Handbook</a></li>
+				<li><a href="#">Source code repositories</a></li>
+				<li><a href="#">Release Engineering</a></li>
+				<li><a href="#">Platforms</a></li>
+				<li><a href="#">Project Ideas</a></li>
+				<li><a href="#">Contributing</a></li>
+			</ul>
+		</aside>
+	</div>
+	<!-- end side info  -->
+
+
+	<!-- main content block here -->
+		<section id="mainContentSection">
+
+			<!-- Intro / Table of Contents / Status -->
+			<article class="MainContent_intro">
+				<h2>FreeBSD/ppc Project</h2>
+				<p class="boldWord">Introduction</p>
+				<p>The FreeBSD/ppc project pages contain information about the FreeBSD port to the PowerPC&reg; architecture. As with the port itself, these pages are still a work in progress.</p>
+
+				<p class="boldWord">Table Of Contents</p>
+				<ul class="mainContentInfo">
+					<li><a href="#">Status</a></li>
+					<li><a href="#">Latest News</a></li>
+					<li><a href="#">Port FAQs</a></li>
+					<li><a href="#">Supported Hardware</a></li>
+					<li><a href="#">FreeBSD/ppc mailing list</a></li>
+					<li><a href="#">Known Issues</a></li>
+					<li><a href="#">Documentation, White Papers, Utilities</a></li>
+					<li><a href="#">Other links of interest</a></li>
+				</ul>
+
+				<p class="boldWord">Status</p>
+				<p>The FreeBSD/ppc port is still a <a href="#">Tier 2</a> platform. That means it is not being fully supported by our security officer, release engineers and toolchain maintainers.</p>
+			</article>
+
+
+
+			<!-- Latest News -->
+			<article class="MainContent_latestNews">
+				<p class="boldWord">Latest News</p>
+					<ul>
+						<li><span class="boldWord">03 April, 2009:</span> Support for the PowerPC has been commited to SVN.</li>
+						<li><span class="boldWord">03 March, 2008:</span> Support for Freescale&reg; PowerQUICC III MPC58XX family system on-chip development boards has not been committed into CVS.</li>
+						<li><span class="boldWord">27 February, 2008:</span> FreeBSD 7.0 is the first release to officially support the FreeBSD/ppc port.</li>
+					</ul>
+			</article>
+
+
+
+			<article class="MainContent_faq">
+				<p class="boldWord">Frequently Asked Questions</p>
+					<ol>
+						<li><a href="#">How can I install FreeBSD/ppc?</a></li>
+						<li><a href="#">How to use ports on FreeBSD/ppc?</a></li>
+						<li><a href="#">Who should I contact?</a></li>
+					</ol>
+
+				<p class="boldWord">How can I install FreeBSD/ppc?</p>
+				<p>ISO images of FreeBSD 8.2 suitable for New-World Macs are available for download, for details on how to obtain these see the <a href="#">release announcment</a>. Please follow instructions given <a href="#">here</a>.</p>
+
+				<p class="boldWord">How to use ports on FreeBSD/ppc?</p>
+			</article>
+
+		</section>
+	<!-- end main content  -->
+
+
+	</div><!-- wrapper container ends -->	
+</body>
+
+</html>

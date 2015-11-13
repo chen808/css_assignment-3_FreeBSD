@@ -1,0 +1,161 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+li, a, p, h1{
+	font-size: 0.9em;
+	font-family: helvetica;
+}
+
+.wrapper{
+	width: 970px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #8B0000;
+	height: 100px;
+}
+
+img {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#contactNav{
+	margin-left: 652px;
+	margin-top: -75px;
+}
+
+#searchBar{
+	margin-left: 765px;
+	margin-top: 10px;
+}
+
+.header li{
+	display: inline;
+	color: white;
+	margin-left: 5px;
+}
+
+.header li a{
+	text-decoration: underline;
+	font-family: helvetica;
+	color: yellow;
+}
+
+.header ul li:nth-child(5),
+.header ul li:nth-child(6){
+	border-left : 1px solid white;
+	padding-left: 10px;
+}
+
+/* Styling the main navigation bar */
+#mainNavBar{
+	background-color: #DCDCDC;
+	height: 40px;
+	border-bottom: 1px solid #c0c0c0;
+	border-top: 1px solid #c0c0c0;
+}
+
+#mainNavBar ul{
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+#mainNavBar li{
+	display: inline;
+}
+
+#mainNavBar li a{
+	text-decoration: none;
+	color: #696969;
+	font-weight: bold;
+	padding-right: 20px;
+
+}
+
+#mainNavBar li:nth-child(2), #mainNavBar li:nth-child(3), #mainNavBar li:nth-child(4),
+#mainNavBar li:nth-child(5), #mainNavBar li:nth-child(6), #mainNavBar li:nth-child(7),
+#mainNavBar li:nth-child(8){
+	border-left: 1px solid #A9A9A9;
+	padding-left: 20px;
+}
+
+
+/* Styling the aside container */
+#asideMenu{
+	width: 190px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #DCDCDC;
+	display: inline-block;
+	border: 1px solid #c0c0c0;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 0px 10px 10px;
+}
+
+#asideMenu li{
+	margin-left: 20px
+}
+
+#asideMenu li a{
+	color: #8B0000;
+	line-height: 2em;
+}
+
+/* Styling main content */
+#mainContentSection{
+	width: 680px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 0px 0px 30px;
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 1.2em;
+	color: #8B0000;
+}
+
+#mainContentSection p.boldWord{
+	color: #8B0000;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+
+#mainContentSection ul{
+	margin-left: 50px;
+}
+
+#mainContentSection ol{
+	margin-left: 50px;
+}
+
+#mainContentSection li a{
+	color: #8B0000;
+}
+
+.MainContent_intro{
+	border-bottom: 2px solid #A9A9A9;
+	padding-bottom: 10px;
+}
+
+.MainContent_latestNews{
+	border-bottom: 2px solid #A9A9A9;
+	padding-bottom: 10px;
+}
+
+.boldWord{
+	font-weight: bold;
+}
+
+a{
+	color: #8B0000;
+}
+
+
